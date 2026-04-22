@@ -1,0 +1,12 @@
+[project]
+name = "1-location-tracking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "counterfit>=0.1.4.dev9",
+    "counterfit-shims-serial>=0.1.0.dev3",
+    "pynmea2>=1.19.0",
+    "werkzeug<3",
+]
